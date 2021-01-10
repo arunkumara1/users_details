@@ -1,0 +1,19 @@
+.userinput {
+  background-color: #f1f2f5;
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-evenly;
+  padding: 15px;
+  align-items: center;
+  height: 100px;
+}
+
+.userinput > .MuiInputBase-input,
+.MuiOutlinedInput-input {
+  background-color: white !important;
+  width: 300px !important;
+}
+.MuiButton-root {
+  padding: 6px 20px !important;
+}

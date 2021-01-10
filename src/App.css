@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+}
+
+.app__userinput {
+  padding: 20px;
+}

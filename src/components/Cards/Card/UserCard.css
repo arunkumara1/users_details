@@ -1,0 +1,61 @@
+.usercard {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 500px;
+  max-height: 500px;
+  min-width: 200px;
+  margin: 20px;
+  height: 300px;
+  border-radius: 10px;
+  transition: transform 300ms ease-in;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #777773;
+  box-sizing: border-box;
+  box-shadow: 0 5px 17px -7px rgba(0, 0, 0, 0.75);
+}
+
+.MuiIconButton-root {
+  cursor: pointer;
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.usercard__top {
+  margin-left: 35px;
+  margin-top: 8px;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MuiTypography-h5 {
+  text-overflow: ellipsis;
+}
+
+.usercard__top > .MuiSelect-root,
+.MuiSelect-select,
+.MuiSelect-selectMenu,
+.MuiInputBase-input,
+.MuiInput-input {
+  width: 100px !important;
+}
+
+.usercard__middle > .MuiInputBase-input,
+.MuiOutlinedInput-input {
+  background-color: white !important;
+  height: 10px !important;
+}
+
+.usercard__middle > .MuiFormControl-root {
+  padding: 8px;
+}
+
+.usercard__top__select {
+  margin-top: 16px !important;
+}
